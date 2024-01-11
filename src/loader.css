@@ -1,0 +1,15 @@
+.loader{
+    width: 40px;
+    height: 40px;
+    border-left:1px solid blue;
+    border-radius: 50%;
+    animation: buffer 1000ms infinite linear ;
+}
+@keyframes buffer {
+from{
+transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg); 
+    }
+}
